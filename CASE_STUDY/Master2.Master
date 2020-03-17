@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="CASE_STUDY.Master2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+     <style type="text/css">
+        .auto-style1 {
+            position: fixed;
+            left: 435px;
+            top: 147px;
+            height: 84px;
+            bottom: 239px;
+        }
+        .auto-style2 {
+            position: fixed;
+            left: 10px;
+            top: 15px;
+            width: 404px;
+            height: 113px;
+        }
+    </style>
+
+</head>
+<body>
+     <div class="auto-style2">
+        <img src="img3.png" />
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
